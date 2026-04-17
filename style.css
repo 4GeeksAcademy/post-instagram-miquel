@@ -1,0 +1,46 @@
+.publicacion {
+    background-color: white;
+    width: 600px;
+    height: auto;
+    border: 0px solid white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+}
+
+.contenedor {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img {
+    width: 600px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+body {
+    width: 100vw;
+    background: lightgrey;
+}
+
+.pie-de-foto {
+    padding: 10px;
+}
